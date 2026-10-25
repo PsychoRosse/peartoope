@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "bin",
+    "crates/train",
+]
+
+resolver = "3"
+
+[workspace.dependencies]
+train = { package = "train", path = "crates/train" }
