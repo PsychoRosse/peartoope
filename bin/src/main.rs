@@ -1,3 +1,5 @@
+use app::go;
+
 fn main() {
-    train::start();
+    go().unwrap()
 }
