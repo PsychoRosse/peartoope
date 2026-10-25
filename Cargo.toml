@@ -2,7 +2,7 @@
 members = [
     "bin",
     "crates/app",
-    "crates/train",
+    "sandbox/train-runner",
 ]
 
 resolver = "3"
@@ -13,4 +13,3 @@ iced = { version = "0.14.0"}
 tokio = { version = "1.54.1", features = ["full"] }
 
 app = { package = "app", path = "crates/app" }
-train = { package = "train", path = "crates/train" }
